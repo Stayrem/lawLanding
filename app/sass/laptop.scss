@@ -4,4 +4,11 @@
     .title--h1{
         font-size: 35px;
     }
+    .gate {
+
+        &::before{
+            right: 0;
+
+        }
+    }
 }
