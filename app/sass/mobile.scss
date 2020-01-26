@@ -1,0 +1,17 @@
+@import 'vars';
+
+@media (max-width: $mobile) {
+    .header-wrapper{
+        display: none;
+    }
+    .gate{
+        &::before{
+            width: 100%;
+            background-position: center;
+            height: 240px;
+        }
+    }
+    .title--h1{
+        font-size: 24px;
+    }
+}
